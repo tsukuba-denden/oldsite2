@@ -1,0 +1,599 @@
+*
+{
+    text-decoration:none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-switcher
+{
+width: 100vw;
+height: 100vh;
+/* background-image: url(/web/20230723213138im_/https://ro-tsukubajh-student.online/images/bg1.jpg); */
+background-position: center center;
+background-size : cover;
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+overflow: hidden;
+}
+
+.bg-switcher h1{
+font-family: 'Rampart One', cursive;
+font-family: 'Bubblegum Sans', cursive;
+background: linear-gradient(90deg, #7bc2c6, #7ba5c4 100%, #adb2e0);
+background: -webkit-linear-gradient(0deg, #08deff, #beffff 30%, #88ffe3);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 150px;
+font-weight: bold;
+
+text-shadow:  3px 3px 5px rgba(0,0,0,0.3);
+margin: 30px;
+}
+
+h2
+{
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transform: rotateX(0deg);
+    transition: all 1s;
+}
+
+h2:hover
+{
+    transition: all 1s;
+    transform: rotateX(360deg);
+     font-size: 64px;
+}
+
+.heading{
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#about{
+   padding: 100px 0; 
+   text-align: center;
+}
+
+.about-title{
+    margin-bottom: 10px;
+}
+
+body{
+background: url(/web/20230723213138im_/https://ro-tsukubajh-student.online/images/HA3.jpeg) center/contain;
+font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.fadein{
+    opacity: 0;
+    transform: translateX(-1000px);
+    transition: all 0.8s;
+}
+.fadein2{
+    opacity: 0;
+    transform: translateX(-1000px);
+    transition: all 10s;
+}
+#bg-fixed{
+    background: url(/web/20230723213138im_/https://ro-tsukubajh-student.online/images/dendenbg.png) center/cover;
+    height: 300px;
+    background-attachment: fixed;
+}
+
+#limited{
+    padding: 100px 0;
+}
+.subheading{
+   font-size: 18px;
+   text-align: center; 
+}
+.slick-initialized .slick-slide {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 3px solid #dcdcdc;
+    border-radius: 10px;
+    height: 350px;
+    margin: 50px 50px 0 50px;
+    padding: 50px;
+}
+
+.slide-img{
+    width: 15vw;
+    height: 15vw;
+    margin: 10px;
+    
+}
+
+.slide-box{
+    padding-left: 30px;
+    width: 60%;
+}
+
+.slide-title
+{
+    font-size: 36px;
+}
+
+.slide-tag
+{
+    background-color: #f05454;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+#menu
+{
+background-color: #8ee5ff;
+padding: 100px 0;
+text-align: center;
+}
+
+.open-box
+{
+display: none;
+}
+
+.food
+{
+display: flex;
+justify-content: space-between;
+margin: 50px auto;
+width: 1000px;
+}
+
+.food-box
+{
+width: 200px;
+}
+
+.food-box-img
+{
+border-radius: 10px;
+width: 300px;
+height: 200px;
+width: 100%;
+transition: all  0.5s ease;
+transform: rotate(0deg) scale(1);
+margin-bottom: 10px;
+}
+
+.food-box-img:hover
+{
+transition: all 0.5s ease;
+transform: rotate(360deg) scale(1.2);
+ 
+
+}
+
+.more-button
+{
+background-color: #009dff;
+border-radius :5px;
+color: #fffdfd;
+display: inline-block;
+font-size: 20px;
+padding: 10px 40px;
+text-decoration: none;
+transition: all  0.5s ease;
+transform: rotate(0deg);
+}
+ .more-button:hover
+{
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783,#e60000) 0 / 200%;
+    animation: 1s more-button linear infinite;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 50px;
+    transition: all  240s ease;
+    transform: rotate(7200000deg);
+    
+} 
+
+@keyframes more-button{
+    100% { background-position: 200%; }
+}
+
+.drink-title
+{
+font-family: "Bubblegum Sans", cursive;
+font-size: 56px;
+margin-top: 50px;
+}
+
+#menu table
+{
+border-collapse: collapse;
+margin: 0 auto;
+margin-bottom: 50px;
+}
+
+#menu th,
+
+#menu td
+{
+padding: 10px 20px;
+}
+
+thead
+{
+    border-bottom: 1px solid #808080;
+}
+
+.drink-menu{
+    text-align: left;
+}
+
+#news
+{
+padding: 100px 0;
+}
+
+.modal
+{
+display: flex;
+justify-content: center;
+margin-top: 50px; 
+}
+
+.banner
+{
+width: 400px;
+}
+.modal-button
+{
+    width: 400px;
+}
+
+.modal-button:hover
+{
+    width: 500px;
+    transition: all  0.5s ease;
+}
+
+
+.modal-box
+{
+margin: 0 20px;
+}
+
+.modaal-content-container
+{
+text-align: center;
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before 
+{
+background-color: #fabb51;
+}
+
+.access-wrap
+{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.access-box
+{
+margin-left: 50px;
+}
+
+.access-box-title
+{
+font-weight: bold;
+}
+
+.access-box-text
+{
+margin-bottom: 10px;
+}
+
+footer
+{
+background-color: #00c3ff70;
+padding: 20px 0;
+}
+
+footer p
+{
+color: #fff;
+text-align: center;
+}
+
+nav
+{
+display: flex;
+justify-content: space-between;
+padding: 30px 50px;
+position: absolute;
+top: 0;
+width: 100%;
+background: linear-gradient(90deg, #00f7ff, #c2e6ff 100%, #aab2ff);
+background: -webkit-linear-gradient(0deg, #21f0ff, #8dffff 30%, #88ffe3);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+nav ul
+{
+display: flex;
+
+}
+
+nav li
+{
+list-style: none;
+margin-left: 50px;
+
+}
+
+nav a
+{
+color: #fff;
+font-size: 24px;
+font-weight: bold;
+text-decoration: none;
+text-shadow: 1px 1px 3px rgba(0,0,0, .3);
+}
+
+.ugoke
+{
+    width: 50px;
+    height: 50px;
+}
+
+#wrapper p{
+    padding:300px 0;
+    text-align:center;
+  }
+  
+  /*========= waveを描画するエリア設定 ===============*/
+  
+  
+  .wave{
+    position: relative;
+  }
+  
+  .wave canvas{
+      position: absolute;
+      bottom: 0;
+    left:0;
+      width: 100%;
+  }
+
+  .access 
+  {
+ padding-bottom: 100px;
+  }
+
+
+  .touka
+  {
+padding-top: 20px;
+  }
+
+  .touka img
+  {
+    width: 5vw;
+    height: 5vw;
+
+    animation: rotation 30s linear 0s infinite normal none running;
+}
+
+@keyframes rotation {
+    0%
+    {
+        transform: translateX(1600px);
+    }
+
+
+
+  100%
+  {
+    transform: translateX(-100px);
+  }
+  }
+
+
+
+  .heading 
+  {
+padding-top: 100px 0px;
+  }
+
+.contact
+{
+    margin: 30px;
+    text-align: center;
+    padding-top: 50px;
+    justify-content: space-between;
+  
+}
+
+.contact p
+{
+    padding-bottom: 20px;
+text-indent: 10px;
+
+}
+
+.contact a
+{
+
+font-weight: bold;
+font-size: 24px;
+letter-spacing: 0.1em;
+width: 200px;
+display: inline-block;
+border-radius: 16px;
+
+
+}
+
+.sns
+{
+margin-top: 100px;
+display: flex;
+justify-content: space-evenly; 
+}
+
+.sns-YTbutton
+{
+    position: relative;
+  display: inline-block;
+    background-color: #ff0000;
+    height: 80px; /* 縦幅 */
+    line-height: 80px; /* 行の高さ */
+    overflow: hidden;
+    width: 200px; /* 横幅 */
+    transition: all 0.3s;
+}
+
+
+.btn__text {
+    position: absolute;
+    left: 0;
+    display: block;
+    height: 100%; /* 縦幅をボタンと同じにする */
+    width: 100%; /* 横幅をボタンと同じにする */
+    color: #fff; /* 文字色 */
+    font-size: 24px; /* 文字サイズ */
+    font-weight: bold; /* 文字の太さ */
+    text-align: center; /* テキストを中央揃え */
+    transition: all 0.3s; /* アニメーション実行時間 */
+    
+  }
+/* ボタンのテキスト(デフォルトのテキスト) */
+.btn__text:nth-child(1) {
+    top: 0;
+  }
+  
+  /* ボタンのテキスト(隠れているテキスト) */
+  .btn__text:nth-child(2) {
+    top: -100%;
+  }
+  
+  /* ボタンホバーアクション */
+  .sns-YTbutton:hover .btn__text:nth-child(1) {
+    
+    top: 100%;
+  }
+  
+  .sns-YTbutton:hover .btn__text:nth-child(2) {
+    top: 0;
+  }  
+
+.sns-TWbutton
+{
+    position: relative;
+    display: inline-block;
+      height: 80px; /* 縦幅 */
+      line-height: 80px; /* 行の高さ */
+      overflow: hidden;
+      width: 200px; /* 横幅 */
+    background-color: #00ccff;
+}
+.sns-TWbutton:hover .btn__text:nth-child(1) {
+    top: 100%;
+  }
+  
+  .sns-TWbutton:hover .btn__text:nth-child(2) {
+    top: 0;
+  }  
+
+
+.sns-DDbutton
+{
+    position: relative;
+    display: inline-block;
+      height: 80px; /* 縦幅 */
+      line-height: 80px; /* 行の高さ */
+      overflow: hidden;
+      width: 200px; /* 横幅 */
+background-color: #0800ff;
+}
+
+.sns-DDbutton:hover .btn__text:nth-child(1) {
+    top: 100%;
+  }
+  
+  .sns-DDbutton:hover .btn__text:nth-child(2) {
+    top: 0;
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media all and (max-width:480px)
+  {
+
+    .food-box
+{
+width: 100vw;
+}
+.food
+{
+display: flex;
+justify-content: safe center;
+margin: 100vw auto;
+width: 100vw;
+}
+  }
+
+/*
+     FILE ARCHIVED ON 21:31:38 Jul 23, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:43:59 Feb 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.676
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.009
+  esindex: 0.016
+  cdx.remote: 146.593
+  LoadShardBlock: 516.124 (3)
+  PetaboxLoader3.datanode: 484.171 (5)
+  load_resource: 546.036
+  PetaboxLoader3.resolve: 183.68
+  loaddict: 210.457
+*/
